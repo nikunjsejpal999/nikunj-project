@@ -1,0 +1,94 @@
+{% extends 'seller_header.html' %}
+{% block content %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+    </head>
+
+    
+        
+        <!-- Main Slider Start -->
+        <div class="header">
+            <div class="container-fluid">
+                <div class="row">
+
+                    <div class="col-md-3">
+                        <div class="header-img">
+                            <div class="img-item">
+                                <img src="{% static 'img/1.jpg' %}" />                               
+                            </div>
+                            <div class="img-item">
+                                <img src="{% static 'img/2.jpg' %}" />                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <div class="header-slider normal-slider">
+                            <div class="header-slider-item">
+                                <img  src="{% static 'img/img1.jpg' %}" style="height:400px; width: 900px;" alt="Slider Image" />
+                                <div class="header-slider-caption">
+                                    <p>Welcome To Our Store</p> 
+                                </div>
+                            </div>
+                            <div class="header-slider-item">
+                                <img  src="{% static 'img/slider-2.jpg' %}" style="height:400px" alt="Slider Image" />
+                                <div class="header-slider-caption">
+                                    <p>Welcome To Our Store</p>            
+                                </div>
+                            </div>
+                            <div class="header-slider-item">
+                                <img  src="{% static 'img/slider-1.jpg' %}" alt="Slider Image" />
+                                <div class="header-slider-caption">
+                                    <p>Welcome To Our Store</p>
+                                    
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="header-img">
+                            <div class="img-item">
+                                <img src="{% static 'img/category-1.jpg' %}" />                               
+                            </div>
+                            <div class="img-item">
+                                <img src="{% static 'img/category-2.jpg' %}" />                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Main Slider End -->      
+        
+        
+       
+        
+               
+        
+        <!-- Call to Action Start -->
+        <div class="call-to-action">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <h1>call us for any queries</h1>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="tel:0123456789">+91 0123456789</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Call to Action End -->         
+        
+        
+        
+        
+        
+       
+    </body>
+</html>
+{% endblock %}
